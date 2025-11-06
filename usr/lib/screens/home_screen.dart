@@ -26,13 +26,13 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void _initializeCurrencyPairs() {
     _currencyPairs = [
-      CurrencyPair(id: 'EURUSD', name: 'EUR/USD', symbol: '€/$'),
-      CurrencyPair(id: 'GBPUSD', name: 'GBP/USD', symbol: '£/$'),
-      CurrencyPair(id: 'USDJPY', name: 'USD/JPY', symbol: '$/¥'),
-      CurrencyPair(id: 'AUDUSD', name: 'AUD/USD', symbol: 'A$/$'),
-      CurrencyPair(id: 'USDCAD', name: 'USD/CAD', symbol: '$/C$'),
-      CurrencyPair(id: 'BTCUSD', name: 'BTC/USD', symbol: '₿/$'),
-      CurrencyPair(id: 'ETHUSD', name: 'ETH/USD', symbol: 'Ξ/$'),
+      CurrencyPair(id: 'EURUSD', name: 'EUR/USD', symbol: '€/\$'),
+      CurrencyPair(id: 'GBPUSD', name: 'GBP/USD', symbol: '£/\$'),
+      CurrencyPair(id: 'USDJPY', name: 'USD/JPY', symbol: '\$/¥'),
+      CurrencyPair(id: 'AUDUSD', name: 'AUD/USD', symbol: 'A\$/\$'),
+      CurrencyPair(id: 'USDCAD', name: 'USD/CAD', symbol: '\$/C\$'),
+      CurrencyPair(id: 'BTCUSD', name: 'BTC/USD', symbol: '₿/\$'),
+      CurrencyPair(id: 'ETHUSD', name: 'ETH/USD', symbol: 'Ξ/\$'),
     ];
 
     for (var pair in _currencyPairs) {
